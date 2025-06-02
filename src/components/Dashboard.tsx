@@ -97,7 +97,7 @@ const Dashboard = () => {
               {recentActivity.map((activity, index) => (
                 <div
                   key={index}
-                  className="flex items-start space-x-3 p-3 bg-gray-50 rounded-lg"
+                  className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg"
                 >
                   <Icon
                     name={
@@ -108,7 +108,7 @@ const Dashboard = () => {
                           : "AlertCircle"
                     }
                     size={16}
-                    className="text-gray-500 mt-1"
+                    className="text-gray-500"
                   />
                   <div className="flex-1">
                     <p className="font-medium text-gray-900">
