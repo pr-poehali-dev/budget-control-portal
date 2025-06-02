@@ -15,9 +15,14 @@ const DocumentRequest = () => {
             Этот раздел позволит отправлять запросы документов подведомственным
             учреждениям.
           </p>
-          <div className="flex items-center space-x-2 text-blue-600">
-            <Icon name="Clock" size={16} />
-            <span className="text-sm">Ожидается в следующем обновлении</span>
+          <div className="bg-blue-50 p-4 rounded-lg mb-4">
+            <h4 className="font-medium text-blue-900 mb-2">
+              Последний запрос:
+            </h4>
+            <p className="text-sm text-blue-800">
+              КГБУЗ "Шарыповская ЦРБ" - Запрос годовой отчетности за 2024 год
+            </p>
+            <p className="text-xs text-blue-600 mt-1">Отправлен: 15.01.2024</p>
           </div>
         </CardContent>
       </Card>

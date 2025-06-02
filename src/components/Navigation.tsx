@@ -21,9 +21,7 @@ const Navigation = ({ activeSection, onSectionChange }: NavigationProps) => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3">
             <Icon name="Shield" size={32} className="text-blue-200" />
-            <h1 className="text-xl font-bold">
-              Система ведомственного бюджетного контроля
-            </h1>
+            <h1 className="text-xl font-bold">КонтрБюджет</h1>
           </div>
 
           <div className="flex space-x-1">

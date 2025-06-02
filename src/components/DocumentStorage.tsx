@@ -14,9 +14,15 @@ const DocumentStorage = () => {
             Здесь будут размещаться акты проверок, предписания и документы
             исполнения.
           </p>
-          <div className="flex items-center space-x-2 text-blue-600">
-            <Icon name="Clock" size={16} />
-            <span className="text-sm">Ожидается в следующем обновлении</span>
+          <div className="bg-green-50 p-4 rounded-lg mb-4">
+            <h4 className="font-medium text-green-900 mb-2">
+              Последний документ:
+            </h4>
+            <p className="text-sm text-green-800">
+              КГБУЗ "Шарыповская ЦРБ" - Акт проверки финансово-хозяйственной
+              деятельности
+            </p>
+            <p className="text-xs text-green-600 mt-1">Размещен: 20.01.2024</p>
           </div>
         </CardContent>
       </Card>

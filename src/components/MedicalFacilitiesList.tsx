@@ -47,6 +47,15 @@ const MedicalFacilitiesList = () => {
       phone: "+7 (39151) 7-15-03",
       status: "violation",
     },
+    {
+      id: "4",
+      name: 'КГБУЗ "Шарыповская ЦРБ"',
+      type: "Центральная районная больница",
+      address: "г. Шарыпово, ул. Ленина, 67",
+      headDoctor: "Волков Дмитрий Николаевич",
+      phone: "+7 (39153) 2-12-34",
+      status: "active",
+    },
   ];
 
   const filteredFacilities = facilities.filter(

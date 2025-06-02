@@ -13,9 +13,17 @@ const AuditReasons = () => {
           <p className="text-gray-600 mb-4">
             Раздел для отслеживания поводов проведения ведомственных проверок.
           </p>
-          <div className="flex items-center space-x-2 text-blue-600">
-            <Icon name="Clock" size={16} />
-            <span className="text-sm">Ожидается в следующем обновлении</span>
+          <div className="bg-orange-50 p-4 rounded-lg mb-4">
+            <h4 className="font-medium text-orange-900 mb-2">
+              Последний повод:
+            </h4>
+            <p className="text-sm text-orange-800">
+              КГБУЗ "Шарыповская ЦРБ" - Плановая проверка использования
+              бюджетных средств
+            </p>
+            <p className="text-xs text-orange-600 mt-1">
+              Назначена: 10.02.2024
+            </p>
           </div>
         </CardContent>
       </Card>
